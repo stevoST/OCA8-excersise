@@ -2,7 +2,8 @@ package introduction.cougarCompilerError;
 
 public class Puma implements HasTail{
     @Override
-    protected int getTailLength() {
+    public int getTailLength() {
+//    protected int getTailLength() {
         return 4;
     }
 }
